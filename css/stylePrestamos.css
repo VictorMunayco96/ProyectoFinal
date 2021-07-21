@@ -1,0 +1,84 @@
+.seccionPrestamos {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.tipoPrestamo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  width: 80%;
+  row-gap: 30px;
+}
+
+.elementoTipoPrestamo {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 15em;
+  max-height: 60em;
+  column-gap: 30px;
+  row-gap: 30px;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+  padding: 15px;
+}
+
+.imgtipoprestamo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 19em;
+  max-width: 22em;
+
+  min-height: 12em;
+  max-height: 28em;
+}
+
+.imgtipoprestamo img {
+  height: 10em;
+  width: 15em;
+  border-radius: 10px;
+}
+
+.detallePrestamo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-width: 20em;
+  max-width: 45em;
+  row-gap: 10px;
+}
+
+.detallePrestamo h2 {
+  text-align: center;
+  color: #10419c;
+}
+
+detallePrestamo span {
+  width: 20em;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  min-width: 12em;
+  max-width: 22em;
+
+  min-height: 5em;
+  max-height: 10em;
+}
+.botones button {
+  background-color: orange;
+  width: 8em;
+  height: 3em;
+  border: none;
+  border-radius: 9px;
+  color: white;
+}
