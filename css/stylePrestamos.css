@@ -41,6 +41,7 @@
   height: 10em;
   width: 15em;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .detallePrestamo {
@@ -58,9 +59,7 @@
   color: #10419c;
 }
 
-detallePrestamo span {
-  width: 20em;
-}
+
 
 .botones {
   display: flex;
@@ -81,4 +80,5 @@ detallePrestamo span {
   border: none;
   border-radius: 9px;
   color: white;
+  cursor: pointer;
 }

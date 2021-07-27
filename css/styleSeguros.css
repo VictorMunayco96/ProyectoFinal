@@ -73,7 +73,8 @@
   .card__imagen {
     height: 300px;
     width: 250px;
-    border-radius: 20px; }
+    border-radius: 20px; 
+    cursor: pointer;}
   .card__descripcion {
     text-align: center;
     font-size: 1.2em;
@@ -115,7 +116,8 @@
   width: 80%; }
   .card-preguntas__imagen {
     height: 80px;
-    width: 50px; }
+    width: 50px;
+    cursor: pointer; }
   .card-preguntas__descripcion {
     text-align: center;
     font-size: 1.2em;

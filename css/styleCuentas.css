@@ -10,6 +10,11 @@
     max-height: 120em;
 }
 
+.sectionCuentas img {
+
+    cursor: pointer;
+}
+
 .cardCuenta{
     display: flex;
     flex-wrap: wrap;
